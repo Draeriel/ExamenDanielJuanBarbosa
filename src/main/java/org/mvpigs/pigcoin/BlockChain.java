@@ -1,9 +1,7 @@
 package org.mvpigs.pigcoin;
-
 import java.util.ArrayList;
 
 public class BlockChain {
-    private Transaction trx;
     private ArrayList<Transaction> bChain = new ArrayList<>();
 
     public  BlockChain() {
@@ -22,8 +20,16 @@ public class BlockChain {
     }
 
     public void summarize(Integer position){
+        System.out.println(bChain.toArray()[position]);
 
     }
+
+    public Wallet dimePublic(){
+        for (Transaction trans : bChain) {
+
+        }
+    }
+
 
 
 }
