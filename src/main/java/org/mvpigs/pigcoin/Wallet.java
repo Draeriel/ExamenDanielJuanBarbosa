@@ -7,8 +7,15 @@ import java.security.PublicKey;
 public class Wallet {
     private PrivateKey SK = null;
     public PublicKey Address = null;
+    private double totalInput = 0d;
+    private double totalOutput = 0d;
 
     public Wallet(){
+        this.SK = SK;
+        this.Address = Address;
+        this.totalInput = totalInput;
+        this.totalOutput = totalOutput;
+
 
     }
 
@@ -26,8 +33,9 @@ public class Wallet {
 
     public void generateKeyPair(){
         KeyPair pair = GenSig.generateKeyPair();
-        setSK(pair.getPrivate());
-        setAddress(pair.getPublic());
-        getAddress();
+        this.setSK(pair.getPrivate());
+        this.setAddress(pair.getPublic());
+        this.getAddress();
     }
+
 }
