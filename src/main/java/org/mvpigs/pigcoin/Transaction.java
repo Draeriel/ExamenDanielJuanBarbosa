@@ -23,4 +23,5 @@ public class Transaction {
         this.pigcoin = pigcoin;
         this.mensaje = mensaje;
     }
+
 }

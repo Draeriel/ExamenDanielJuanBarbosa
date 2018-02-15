@@ -19,17 +19,9 @@ public class BlockChain {
         }
     }
 
-    public void summarize(Integer position){
-        System.out.println(bChain.toArray()[position]);
+    public Object summarize(Integer position){
+        return bChain.toArray()[position];
 
     }
-
-    public Wallet dimePublic(){
-        for (Transaction trans : bChain) {
-
-        }
-    }
-
-
 
 }

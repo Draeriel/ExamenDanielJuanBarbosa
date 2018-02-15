@@ -36,7 +36,7 @@
                     <!-- if outputDirectory is not set explicitly it will default to your build dir -->
 
                     <packages>
-                        <param>org.mvpigs.cotxos</param>
+                        <param>org.mvpigs.org.mvpigs.pigcoin</param>
                     </packages>
                     <ignores>
                         <param>com.mycompany.mypackage.MyClass</param>

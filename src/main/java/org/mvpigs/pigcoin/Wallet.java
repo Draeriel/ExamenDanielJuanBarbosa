@@ -13,6 +13,7 @@ public class Wallet {
     private double balance = 0d;
 
 
+
     public Wallet(){
         this.SK = SK;
         this.Address = Address;
@@ -40,9 +41,10 @@ public class Wallet {
     }
 
     public void loadCoins(BlockChain bChain){
-        for (Transaction trans : )
+
     }
+    public void loadInputTransactions(BlockChain bChain){
 
-
+    }
 
 }
