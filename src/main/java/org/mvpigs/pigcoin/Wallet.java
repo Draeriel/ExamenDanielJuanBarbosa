@@ -15,8 +15,6 @@ public class Wallet {
         this.Address = Address;
         this.totalInput = totalInput;
         this.totalOutput = totalOutput;
-
-
     }
 
     public void setSK(PrivateKey SK){
@@ -33,9 +31,9 @@ public class Wallet {
 
     public void generateKeyPair(){
         KeyPair pair = GenSig.generateKeyPair();
-        this.setSK(pair.getPrivate());
-        this.setAddress(pair.getPublic());
-        this.getAddress();
+        setSK(pair.getPrivate());
+        setAddress(pair.getPublic());
     }
+
 
 }
